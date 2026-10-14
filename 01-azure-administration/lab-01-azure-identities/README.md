@@ -1,3 +1,4 @@
+<img width="757" height="467" alt="user1" src="https://github.com/user-attachments/assets/e481b7dd-6ce7-41f2-9010-cf457d6fb8ad" />
 
 # Lab 01: Manage Azure Identities
 
