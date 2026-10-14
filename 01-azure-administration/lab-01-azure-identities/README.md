@@ -1,5 +1,3 @@
-<img width="757" height="467" alt="user1" src="https://github.com/user-attachments/assets/e481b7dd-6ce7-41f2-9010-cf457d6fb8ad" />
-
 # Lab 01: Manage Azure Identities
 
 ## Overview
@@ -66,6 +64,7 @@ Explain how you added the user account to the security group.
 Document the checks you performed to confirm the configuration
 worked as intended.
 
+<img width="757" height="467" alt="user1" src="https://github.com/user-attachments/assets/e481b7dd-6ce7-41f2-9010-cf457d6fb8ad" />
 - [ ] Confirmed that the user account appears in Microsoft Entra ID.
 - [ ] Confirmed that the security group was created successfully.
 - [ ] Verified that the user is a member of the security group.
