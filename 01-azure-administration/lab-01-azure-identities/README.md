@@ -72,13 +72,6 @@ worked as intended.
 
 ## Challenges and Troubleshooting
 
-Document any issues encountered during the lab and how you
-resolved them.
-
-| Issue | Root Cause | Resolution |
-|---|---|---|
-| Add issues here | Add the identified cause | Describe the fix |
-
 No significant issue was encountered during the lab.
 
 ## Lessons Learned
