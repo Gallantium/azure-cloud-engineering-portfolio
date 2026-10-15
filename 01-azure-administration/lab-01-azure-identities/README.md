@@ -72,7 +72,7 @@ worked as intended.
 <img width="470" height="343" alt="M365_group" src="https://github.com/user-attachments/assets/5873582c-8e3b-47a3-9c3c-f757312fcdb9" />
 
 <img width="1478" height="923" alt="secmemb" src="https://github.com/user-attachments/assets/254d3dc2-1f40-4f64-8bde-9f9d607e2cc2" />
-### **Note:** To create a dynamic user or device at least P1 license is needed.
+**Note:** To create a dynamic user or device at least P1 license is needed.
 
 ## Challenges and Troubleshooting
 
