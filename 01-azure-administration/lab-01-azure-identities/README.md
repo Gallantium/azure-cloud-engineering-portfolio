@@ -61,10 +61,18 @@ Explain how you added the user account to the security group.
 
 ## Verification
 
+
 Document the checks you performed to confirm the configuration
 worked as intended.
 
-<img width="757" height="467" alt="user1" src="https://github.com/user-attachments/assets/e481b7dd-6ce7-41f2-9010-cf457d6fb8ad" />
+<img width="727" height="461" alt="user_1" src="https://github.com/user-attachments/assets/7ced66a5-37f3-4f6b-99f8-e51c884ab47a" />
+
+<img width="1164" height="900" alt="secgroup" src="https://github.com/user-attachments/assets/bb8021a8-eaba-4676-bd84-f4f2212b0b22" />
+
+<img width="470" height="343" alt="M365_group" src="https://github.com/user-attachments/assets/5873582c-8e3b-47a3-9c3c-f757312fcdb9" />
+
+<img width="1478" height="923" alt="secmemb" src="https://github.com/user-attachments/assets/254d3dc2-1f40-4f64-8bde-9f9d607e2cc2" />
+
 - [ ] Confirmed that the user account appears in Microsoft Entra ID.
 - [ ] Confirmed that the security group was created successfully.
 - [ ] Verified that the user is a member of the security group.
