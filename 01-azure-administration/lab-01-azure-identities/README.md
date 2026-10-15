@@ -73,23 +73,10 @@ worked as intended.
 
 <img width="1478" height="923" alt="secmemb" src="https://github.com/user-attachments/assets/254d3dc2-1f40-4f64-8bde-9f9d607e2cc2" />
 
-- [ ] Confirmed that the user account appears in Microsoft Entra ID.
-- [ ] Confirmed that the security group was created successfully.
-- [ ] Verified that the user is a member of the security group.
-- [ ] Confirmed that the configuration matches the lab requirements.
-
 ## Challenges and Troubleshooting
 
 No significant issue was encountered during the lab.
 
-## Lessons Learned
-
-Summarise what you learned about:
-
-- Microsoft Entra ID user management.
-- Security groups and group membership.
-- Identity and access management in Azure.
-- The importance of verifying identity configurations.
 
 ## Cleanup
 
