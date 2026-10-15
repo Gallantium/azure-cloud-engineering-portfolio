@@ -36,9 +36,9 @@ Created a user account in Microsoft Entra ID using the Microsoft Entra admin cen
 
 **Configuration details:**
 
-- Display name: [Enter display name or a sanitized example]
-- Username: [Enter a placeholder, not a sensitive account]
-- Account status: [Enabled/Disabled]
+- Display name: user1
+- Username: user1
+- Account status: Enabled
 
 ### Step 2: Create a Security Group
 
@@ -46,10 +46,9 @@ Created a security group to practise organizing users for access management.
 
 **Configuration details:**
 
-- Group name: [Enter group name]
+- Group name: Secgroup
 - Group type: Security
 - Membership type: Assigned
-- Purpose: [Describe the intended use]
 
 ### Step 3: Create a Microsoft 365 Group
 
@@ -57,10 +56,9 @@ Created a Microsoft 365 group to understand how Microsoft 365 groups differ from
 
 **Configuration details:**
 
-- Group name: [Enter group name]
+- Group name: M365group
 - Group type: Microsoft 365
 - Membership type: Assigned
-- Purpose: [Describe the intended use]
 
 ### Step 4: Add the User to the Group
 
@@ -73,7 +71,7 @@ Added the created user to the relevant group.
 3. Added the intended user as a member.
 4. Saved the changes and checked the resulting membership.
 
-**Result:** [Record what happened after completing these steps.]
+<img width="1478" height="923" alt="secmemb" src="https://github.com/user-attachments/assets/ef86c1bb-c64b-4b91-8567-1fab69c35232" />
 
 ## Verification
 
