@@ -1,98 +1,132 @@
+
 # Lab 01: Manage Azure Identities
 
 ## Overview
 
-This lab focuses on managing identities in Microsoft Entra ID,
-including creating user accounts, security groups, and managing
-group membership.
+This lab focuses on identity and group management in Microsoft Entra ID. It covers creating a user account, creating security and Microsoft 365 groups, and managing group membership.
+
+The purpose of this lab is to practise identity administration tasks relevant to Azure administration and access management.
 
 ## Objectives
 
-- Create and manage Microsoft Entra ID user accounts.
+- Create a Microsoft Entra ID user account.
 - Create a security group.
-- Create a M365 group.
-- Add users to the appropriate security group.
-- Verify that the identity configuration meets the lab requirements.
+- Create a Microsoft 365 group.
+- Add a user to the appropriate group.
+- Verify that the user and group configurations are correct.
+- Understand the licensing requirements for dynamic group membership.
 
 ## Technologies Used
 
 - Microsoft Azure
 - Microsoft Entra ID
-- Azure Portal
+- Microsoft Entra admin center
 
 ## Prerequisites
 
-- An Azure account with access to Microsoft Entra ID.
+- Access to a Microsoft Entra tenant.
 - Sufficient permissions to create users and groups.
-- Access to the Azure portal.
+- A web browser and internet connection.
 
 ## Implementation
 
 ### Step 1: Create a User Account
 
-Describe the steps you followed to create the user account.
+Created a user account in Microsoft Entra ID using the Microsoft Entra admin center.
 
 **Configuration details:**
-- User display name:
-- Username (use a placeholder if needed):
-- Account status:
+
+- Display name: [Enter display name or a sanitized example]
+- Username: [Enter a placeholder, not a sensitive account]
+- Account status: [Enabled/Disabled]
 
 ### Step 2: Create a Security Group
 
-Describe how you created the security group.
+Created a security group to practise organizing users for access management.
 
 **Configuration details:**
-- Group name:
-- Group type:
-- Membership type:
 
-### Step 2: Create a Security Group
+- Group name: [Enter group name]
+- Group type: Security
+- Membership type: Assigned
+- Purpose: [Describe the intended use]
 
-Describe how you created the security group.
+### Step 3: Create a Microsoft 365 Group
+
+Created a Microsoft 365 group to understand how Microsoft 365 groups differ from security groups.
 
 **Configuration details:**
-- Group name:
-- Group type:
-- Membership type:
 
-### Step 3: Add the User to the Group
+- Group name: [Enter group name]
+- Group type: Microsoft 365
+- Membership type: Assigned
+- Purpose: [Describe the intended use]
 
-Explain how you added the user account to the security group.
+### Step 4: Add the User to the Group
+
+Added the created user to the relevant group.
+
+**Steps performed:**
+
+1. Opened the group in the Microsoft Entra admin center.
+2. Navigated to its membership settings.
+3. Added the intended user as a member.
+4. Saved the changes and checked the resulting membership.
+
+**Result:** [Record what happened after completing these steps.]
 
 ## Verification
 
+The following checks were used to validate the configuration.
 
-Document the checks you performed to confirm the configuration
-worked as intended.
+- [ ] Confirmed that the user account appears in the directory.
+- [ ] Checked the account's enabled or disabled status.
+- [ ] Confirmed that the security group exists and has the expected group type.
+- [ ] Confirmed that the Microsoft 365 group exists, if created.
+- [ ] Checked that the intended user appears in the relevant group's membership list.
 
-<img width="727" height="461" alt="user_1" src="https://github.com/user-attachments/assets/7ced66a5-37f3-4f6b-99f8-e51c884ab47a" />
-
-<img width="1164" height="900" alt="secgroup" src="https://github.com/user-attachments/assets/bb8021a8-eaba-4676-bd84-f4f2212b0b22" />
-
-<img width="470" height="343" alt="M365_group" src="https://github.com/user-attachments/assets/5873582c-8e3b-47a3-9c3c-f757312fcdb9" />
-
-<img width="1478" height="923" alt="secmemb" src="https://github.com/user-attachments/assets/254d3dc2-1f40-4f64-8bde-9f9d607e2cc2" />
-**Note:** To create a dynamic user or device at least P1 license is needed.
+**Verification outcome:** [Document the checks you actually performed and their results.]
 
 ## Challenges and Troubleshooting
 
-No significant issue was encountered during the lab.
+[Describe any issue you encountered and how you resolved it.]
 
+If no issues occurred, state:
+
+"No significant issues were encountered during this lab."
+
+## Licensing Considerations
+
+Dynamic group membership requires appropriate licensing. Microsoft documents a Microsoft Entra ID P1 license or an Intune for Education license for each unique user who belongs to one or more dynamic membership groups.
+
+Dynamic membership was not tested in this lab because [state the actual licensing or access limitation, if applicable].
+
+Reference: https://learn.microsoft.com/en-us/entra/identity/users/groups-dynamic-membership
 
 ## Cleanup
 
-- [ ] Removed temporary users or groups if they were no longer needed.
+- [ ] Removed temporary test users or groups if they were no longer required.
 - [ ] Confirmed that no unnecessary resources or assignments remained.
 
-**Note:** Do not delete accounts, groups, or assignments that are
-needed by your organisation or other workloads.
+Do not remove accounts, groups, or assignments that are required by an organization or other workloads.
+
+## Lessons Learned
+
+- Practised creating and managing Microsoft Entra ID user accounts.
+- Explored the use of security and Microsoft 365 groups.
+- Practised checking group membership to validate identity configuration.
+- Learned about the licensing considerations for dynamic group membership.
+
+[Edit these points to reflect what you actually learned.]
 
 ## Conclusion
 
-In this lab I created user, security and M365 groups.
-Due to the limitation of my subscription I could not explore dynamic group which require P1 or P2 license.
+This lab provided practical experience with Microsoft Entra ID identity and group management. It helped reinforce the importance of organizing users into groups and verifying membership to support effective access administration.
+
+[Update this conclusion if any of the objectives were not completed.]
 
 ## References
 
 - [Microsoft Entra ID documentation](https://learn.microsoft.com/en-us/entra/identity/)
+- [Microsoft Entra dynamic membership groups](https://learn.microsoft.com/en-us/entra/identity/users/groups-dynamic-membership)
 - [Microsoft AZ-104 hands-on labs](https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/)
